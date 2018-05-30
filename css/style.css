@@ -1,0 +1,311 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+em, i, u {
+    font-style: normal;
+}
+ul,li,dd,dl,dt{
+    list-style-type: none
+}
+li,a,div{
+    outline: none
+}
+.clearfix:after {
+    content: "." ;
+    display: block ;
+    height: 0 ;
+    clear: both ;
+    visibility: hidden ;
+}
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */ 
+
+.clear, .clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.cl{
+    clear: both;
+}
+img{
+    border:0
+}
+a {
+    color:#666666;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px
+}
+a:hover{
+    color:#1BA358
+}
+#nav-2014 {
+    /*border-bottom: 2px solid #b1191a;
+    height: 44px;*/
+}
+#categorys-2014 {
+    float: left;
+    height: 44px;
+    overflow: visible;
+    position: relative;
+    width: 210px;
+    z-index: 10;
+}
+#categorys-2014 .dt a {
+    background: #b1191a none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font: 400 15px/44px "microsoft yahei";
+    height: 44px;
+    padding: 0 10px;
+    text-decoration: none;
+    width: 190px;
+}
+#categorys-2014 .dd {
+   
+    background: #FFFFFF;
+    height: 480px;
+    margin-top: 2px;
+}
+#categorys-2014 .dd-inner .item {
+    /*border-left: 1px solid #b61d1d;*/
+    color: #fff;
+    height: 31px;
+    position: relative;
+    z-index: 1;
+    width: 218px;
+    height: 80px;
+    line-height: 80px;
+   /* text-align: center;*/
+    border-bottom: 1px solid #f4f4f4;
+}
+#categorys-2014 .dd-inner .item a {
+    color: #333;
+}
+
+#categorys-2014 .dd-inner i {
+    font: 400 9px/14px consolas;
+    height: 14px;
+    position: absolute;
+    text-align: center;
+    line-height: 14px;
+    right: 65px;
+    top:34px;
+    width: 4px;
+    z-index: 1;
+    color: #666666;
+    font-weight: 700;
+}
+
+
+#categorys-2014 .dd-inner .hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+    color: #b61d1d;
+}
+#categorys-2014 .dd-inner .hover a {
+    color: #b61d1d;
+}
+#categorys-2014 .dd-inner .hover i {
+    background: #f7f7f7 none repeat scroll 0 0;
+    height: 31px;
+    left: 205px;
+    line-height: 200px;
+    overflow: hidden;
+    top: 0;
+    width: 14px;
+}
+/*鼠标滑入显示内容*/
+#categorys-2014 .dorpdown-layer {
+    background: #f7f7f7 none repeat scroll 0 0;
+    /*border: 1px solid #B61D1D;*/
+   border: 1px solid #C3C3C3;
+   /* border-left:none ;*/
+    display: none;
+    left: 218px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 780px;
+    height: 488px;
+    
+}
+#categorys-2014 .dorpdown-layer .hover {
+    display: block;
+}
+#categorys-2014 .item-sub {
+    display: none;
+    overflow: hidden;
+}
+#categorys-2014 .item-sub::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+}
+#categorys-2014 .item-channels {
+    background: #f7f7f7 none repeat scroll 0 0;
+    display: inline;
+    float: left;
+    height: 24px;
+    overflow: hidden;
+    padding: 20px 0 0 20px;
+    width: 570px;
+}
+#categorys-2014 .item-channels a {
+    background: #7c7171 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    line-height: 24px;
+    margin-right: 10px;
+    padding: 0 0 0 8px;
+    white-space: nowrap;
+}
+#categorys-2014 .item-channels a:hover {
+    background: #c81623 none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels a:hover i {
+    background: #b1191a none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels i {
+    background: #5c5251 none repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    font: 400 9px/24px consolas;
+    height: 24px;
+    margin-left: 8px;
+    text-align: center;
+    width: 23px;
+}
+#categorys-2014 .item-channels .line {
+    border-left: 1px solid #dbdbdb;
+    display: inline;
+    float: left;
+    height: 24px;
+    margin-right: 7px;
+    overflow: hidden;
+    width: 1px;
+}
+#categorys-2014 .item-channels .img-link {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    line-height: normal;
+    padding: 0;
+}
+#categorys-2014 .item-channels .img-link:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels .style-red {
+    background: #c81623 none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels .style-red i {
+    background: #b1191a none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels .style-red:hover {
+    background: #961019 none repeat scroll 0 0;
+}
+#categorys-2014 .item-channels .style-red:hover i {
+    background: #851313 none repeat scroll 0 0;
+}
+#categorys-2014 .subitems {
+    background: #f7f7f7 none repeat scroll 0 0;
+    float: left;
+    margin-bottom: -1000px;
+    min-height: 409px;
+    padding: 6px 0 1006px 20px;
+    width: 570px;
+}
+#categorys-2014 .subitems dl {
+    line-height: 2em;
+    overflow: hidden;
+    width: 100%;
+}
+#categorys-2014 .subitems dl.fore1 dd {
+    border-top: medium none;
+}
+#categorys-2014 .subitems dt {
+    float: left;
+    font-weight: 700;
+    padding: 8px 30px 0 0;
+    position: relative;
+    text-align: right;
+    width: 54px;
+}
+#categorys-2014 .subitems dt i {
+    font: 400 9px/14px consolas;
+    height: 14px;
+    position: absolute;
+    right: 18px;
+    top: 13px;
+    width: 4px;
+}
+#categorys-2014 .subitems dd {
+    border-top: 1px solid #eee;
+    float: left;
+    padding: 6px 0;
+    width: 480px;
+}
+#categorys-2014 .subitems dd a {
+    border-left: 1px solid #e0e0e0;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 4px 0;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+#categorys-2014 .item-brands {
+    display: inline;
+    float: right;
+    margin: 19px 20px 10px 0;
+    overflow: hidden;
+    width: 168px;
+}
+#categorys-2014 .item-brands a {
+    display: inline;
+    float: left;
+    margin: 1px 0 0 1px;
+}
+#categorys-2014 .item-promotions {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    width: 168px;
+}
+#categorys-2014 .item-promotions a {
+    display: block;
+    margin-bottom: 1px;
+}
+#navitems-2014 {
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+#navitems-2014 .spacer, #navitems-2014 a, #navitems-2014 li, #navitems-2014 ul {
+    float: left;
+}
+#navitems-2014 .spacer {
+    display: none;
+}
+#navitems-2014 a {
+    color: #333;
+    font: 400 15px/44px "microsoft yahei";
+    height: 44px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#navitems-2014 a:hover {
+    color: #c81623;
+}
+#navitems-2014 .spacer {
+    background: #ddd none repeat scroll 0 0;
+    height: 24px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 1px;
+}

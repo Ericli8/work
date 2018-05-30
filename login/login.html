@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link rel="stylesheet" href="../base.css" />
+		<link rel="stylesheet" href="../css/kaba.css" />
+		<link rel="stylesheet" href="../css/style_mumber.css" />
+	</head>
+	<body>
+		<div class="login-box">
+			<div class="login-box-header">
+				<div class="logo-box">
+			         <img src="../img/icon.png" >
+					 <p>欢迎登录</p>
+				</div>
+				
+			</div>
+			
+			<div class="login-box-list">
+				<h3>密码登录</h3>
+				<ul class="login-box-list-ul">
+					<li>
+						<img src="../img/icon/login-cion1.png" class="icon">
+						<input type="text" name="lastname" placeholder="请输入用户名或手机号码" >
+					</li>
+					<li>
+						<img src="../img/icon/login-icon2.png" class="icon">
+						<input type="password" name="lastname" placeholder="请输入密码" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;" >
+					</li>
+					
+					
+					<li class="VerificationCode-box">
+						<input type="text" name="lastname" placeholder="输入验证码"  >
+						<div id="VerificationCode">
+							
+						</div>
+						
+						<div class="VerificationCode_text">
+							看不清？换一个
+						</div>						
+						
+					</li>
+					
+					<div class="login-btn">
+						登录
+					</div>
+					
+					<div class="login-box-bz">
+						<a href="#">免费注册</a>
+						&nbsp;&nbsp;
+						<a href="#">忘记密码？</a>						
+					</div>
+					
+					
+				</ul>
+			</div>
+			
+			
+		</div>
+
+	</body>
+</html>
