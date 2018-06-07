@@ -1,0 +1,66 @@
+body{background: #FFFFFF;}
+body,html{width: 100%; height: 100%;}
+
+/*个人中心所有页面样式*/
+
+.member-top{width: 100%; height:80px; background: #e4393c;}
+.member-top-n{width: 1200px; margin: 0 auto; height: 100%; position: relative;}
+.member-top-n h2{font-size: 24px; color: #FFFFFF;display: block;float: left;padding-top: 35px;}
+.member-top-n h3{font-size: 14px; color: #FFFFFF;display: block;float: left;padding-top: 48px;margin-left:35px;}
+
+.top-shop2{width: 180px;height: 35px;border: 1px solid red; background: #FFF;  position: absolute;	top: 25px;right: 5px;line-height: 35px;/* text-align: center;*/}
+
+.top-shop2-icon {margin: 0px 10px 0 34px;}
+.top-shop2>a {font-size: 14px;color: #333333;}
+.top-shop2-count {display: inline-block;width: 10px;height: 14px;text-align: center;line-height: 14px;border-radius: 50%;	background: #FF0000;
+color: #FFFFFF;}
+.top-shop2-code {width: 61px;height: 61px;	position: absolute;top: 10px;right: 4px;}
+.top-shop2-Keyword {width: 220px;position: absolute;top: 70px;left: 310px;}
+.top-shop2-Keyword>a {margin-right: 16px;}
+.top-shop2-Keyword>a:hover {color: #FF0000;}
+
+.member-content{width: 1200px; margin: 0 auto;overflow: hidden;}
+.mianbaoxie{font-size: 14px;padding-top: 20px;padding-bottom:25px;}
+.member-content-nav{width: 118px;overflow: hidden;border-bottom:1px solid #eeeeee;}
+.member-content-nav li{width:115px; height:40px; border-top:1px solid #eeeeee;border-left:1px solid #eeeeee; border-right:1px solid #eeeeee;
+text-align: center; line-height: 40px;cursor: pointer;}
+
+
+
+.member-content-left{width: 160px; float: left;}
+.member-content-right{width:1000px; float: left;font-size:14px;}
+.title-line{width: 100%;  height: 35px; background: #f1f1f1; line-height: 35px; font-size: 14px;font-weight: bolder;text-indent: 14px;}
+.member-content-input-text{width: 100%; height: 30px;margin-top: 45px;}
+.member-content-input-text span{color: #eb2c3a;}
+
+.member-content-input-list{width: 500px;overflow: hidden; margin-top: 10px;}
+.member-content-input-list span{float: left;display: block;width: 75px; text-align: right;height: 35px;line-height: 35px;margin-right: 15px;}
+.member-content-input-list input{float: left; height: 35px; line-height: 35px; text-indent: 10px;border: 1px solid #cccccc;}
+.select-box{float: left;width: 400px;height: 35px;}
+.select-box select{width: 32%;height: 34px; line-height: 35px;border: 1px solid #cccccc;}
+.member-content-input-list #member-textarea{width:382px; height: 60px; font-size: 14px; padding: 5px;border: 1px solid #cccccc;}
+.member-content-input-list .inputbz{width:392px;}
+.member-content-input-list .inputdxd{width:280px;}
+.member-content-input-list .inputzdd{width:70px ;margin-right:10px;}
+
+.address-list{width: 1000px;padding-top: 35px;}
+.address-list-ul{width:1000px;border-bottom:1px solid #eeeeee;overflow: hidden;}
+.address-list-ul .on{background: #f2f7ff;}
+.address-list-ul li{width:998px; height:50px;font-size: 14px;padding-top: 15px;
+border-top:1px solid #eeeeee;border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;
+}
+.address-list-ul li span{display: block;float: left;padding-left:10px;}
+.address-list-line{background:#f2f7ff;width: 998px; height: 40px; line-height: 40px;font-weight: bolder;
+border-top:1px solid #eeeeee;border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;
+}
+.address-list-line span{display: block;float: left;padding-left:10px;}
+.span01{width:80px}
+.span02{width: 170px;}
+.span03{width: 240px;}
+.span05{width: 125px;}
+.xgsc{width: 100px;float: left;}
+.xgsc dt{display: block;float: left;cursor: pointer;}
+
+.btn-t{width:70px; height: 35px; background:#ee4240;  line-height: 35px; text-align: center; color:#FFFFFF;margin-bottom: 20px;margin-left:90px; }
+.member-content-input-mr{padding-top: 15px;padding-left:90px; padding-bottom: 20px;}
+.mrspan{color: #e4393c;cursor: pointer;}

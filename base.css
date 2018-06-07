@@ -3,7 +3,7 @@
 body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, 
 pre, table, caption, th, td, form, legend, fieldset, input, button, select, 
 textarea {margin:0; padding:0; border:0;}
-body{ font-weight: normal;font-style: normal;font-size:12px;font-family: "微软雅黑", Arial, Tahoma; background:#f4f4f4; }
+body{ font-weight: normal;font-style: normal;font-size:12px;font-family: "微软雅黑", Arial, Tahoma; }
 img {border: 0;} 
 a img,img {border: 0;vertical-align: middle;}
 a {text-decoration: none; color:#333}
