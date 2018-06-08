@@ -25,6 +25,9 @@ $(function () {
     }); 
     
 
-
+laydate.render({
+  elem: '.select-box'
+});
+	
 
 });
