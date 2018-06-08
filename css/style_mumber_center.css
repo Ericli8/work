@@ -24,11 +24,11 @@ color: #FFFFFF;}
 .member-content-nav{width: 118px;overflow: hidden;border-bottom:1px solid #eeeeee;}
 .member-content-nav li{width:115px; height:40px; border-top:1px solid #eeeeee;border-left:1px solid #eeeeee; border-right:1px solid #eeeeee;
 text-align: center; line-height: 40px;cursor: pointer;}
-
+.member-content-nav .on{background:#e4393c; color: #FFFFFF;}
 
 
 .member-content-left{width: 160px; float: left;}
-.member-content-right{width:1000px; float: left;font-size:14px;}
+.member-content-right{width:1000px; float: left;font-size:14px;overflow: hidden;}
 .title-line{width: 100%;  height: 35px; background: #f1f1f1; line-height: 35px; font-size: 14px;font-weight: bolder;text-indent: 14px;}
 .member-content-input-text{width: 100%; height: 30px;margin-top: 45px;}
 .member-content-input-text span{color: #eb2c3a;}
@@ -39,9 +39,9 @@ text-align: center; line-height: 40px;cursor: pointer;}
 .select-box{float: left;width: 400px;height: 35px;}
 .select-box select{width: 32%;height: 34px; line-height: 35px;border: 1px solid #cccccc;}
 .member-content-input-list #member-textarea{width:382px; height: 60px; font-size: 14px; padding: 5px;border: 1px solid #cccccc;}
-.member-content-input-list .inputbz{width:392px;}
-.member-content-input-list .inputdxd{width:280px;}
-.member-content-input-list .inputzdd{width:70px ;margin-right:10px;}
+.inputbz{width:392px;}
+.inputdxd{width:280px;}
+.inputzdd{width:70px ;margin-right:10px;}
 
 .address-list{width: 1000px;padding-top: 35px;}
 .address-list-ul{width:1000px;border-bottom:1px solid #eeeeee;overflow: hidden;}
@@ -64,3 +64,26 @@ border-top:1px solid #eeeeee;border-left:1px solid #eeeeee;border-right:1px soli
 .btn-t{width:70px; height: 35px; background:#ee4240;  line-height: 35px; text-align: center; color:#FFFFFF;margin-bottom: 20px;margin-left:90px; }
 .member-content-input-mr{padding-top: 15px;padding-left:90px; padding-bottom: 20px;}
 .mrspan{color: #e4393c;cursor: pointer;}
+
+
+
+
+
+/*个人中心*/
+.member-content-grzx01 img{width: 80px; height: 80px;}
+.member-content-input-list2{width: 500px;overflow: hidden; margin-top: 10px;}
+.member-content-input-list2 span{float: left;display: block;width:85px; text-align: right;height: 35px;line-height: 35px;margin-right: 15px;}
+.member-content-input-list2 input{float: left; height: 35px; line-height: 35px; text-indent: 10px;border: 1px solid #cccccc;}
+.member-content-input-list2 select{width:80px;height: 34px; line-height: 35px;border: 1px solid #cccccc;}
+.select-box{float: left;width: 400px;height: 35px;}
+.member-content-input-list2-yyzz{width: 330px; height: 260px;border:1px solid #f4f4f4; float: left;overflow: hidden;}
+.member-content-input-list2-yyzz img{width:90%; margin: 0 auto;display: block;padding-top:5%;}
+.member-content-input-list2-tx{width: 390px;float: left;overflow: hidden}
+.txbox{width: 80px;height: 80px;overflow:hidden;float: left;}
+.txbox img{width: 100%!important;}
+.txbox02{width: 290px; float:left;margin-left: 20px;}
+.txbox02-btn{width: 80px; height: 30px; line-height: 30px; background: #eeeeee;text-align: center!important; cursor: pointer;margin-top:10px;}
+.txbox02 p{width: 100%;padding-top:10px; font-size:12px;}
+.txbox02 .upload{display: none;}
+.txbox02 span{display: none;}
+.btn-t-member-c{margin-left:100px;margin-top:30px;cursor: pointer;}
