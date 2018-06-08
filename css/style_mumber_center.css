@@ -71,12 +71,12 @@ border-top:1px solid #eeeeee;border-left:1px solid #eeeeee;border-right:1px soli
 
 /*个人中心*/
 .member-content-grzx01 img{width: 80px; height: 80px;}
-.member-content-input-list2{width: 500px;overflow: hidden; margin-top: 10px;}
+.member-content-input-list2{width:800px;overflow: hidden; margin-top: 10px;}
 .member-content-input-list2 span{float: left;display: block;width:85px; text-align: right;height: 35px;line-height: 35px;margin-right: 15px;}
 .member-content-input-list2 input{float: left; height: 35px; line-height: 35px; text-indent: 10px;border: 1px solid #cccccc;}
 .member-content-input-list2 select{width:80px;height: 34px; line-height: 35px;border: 1px solid #cccccc;}
 .select-box{float: left;width: 400px;height: 35px;}
-.member-content-input-list2-yyzz{width: 330px; height: 260px;border:1px solid #f4f4f4; float: left;overflow: hidden;}
+.member-content-input-list2-yyzz{width:320px; height: 260px;border:1px solid #f4f4f4; float: left;overflow: hidden;margin-right: 20px;}
 .member-content-input-list2-yyzz img{width:90%; margin: 0 auto;display: block;padding-top:5%;}
 .member-content-input-list2-tx{width: 390px;float: left;overflow: hidden}
 .txbox{width: 80px;height: 80px;overflow:hidden;float: left;}
