@@ -28,7 +28,7 @@ text-align: center; line-height: 40px;cursor: pointer;}
 
 
 .member-content-left{width: 160px; float: left;}
-.member-content-right{width:1000px; float: left;font-size:14px;overflow: hidden;}
+.member-content-right{width:1040px; float: left;font-size:14px;overflow: hidden;}
 .title-line{width: 100%;  height: 35px; background: #f1f1f1; line-height: 35px; font-size: 14px;font-weight: bolder;text-indent: 14px;}
 .member-content-input-text{width: 100%; height: 30px;margin-top: 45px;}
 .member-content-input-text span{color: #eb2c3a;}
@@ -156,3 +156,20 @@ margin-left:30px;}
 .xxmm-box03-line a{color: #447dd2;font-size: 14px;}
 .xxmm-box-k{display: none;}
 .xxmm-box .on{display: block!important;}
+
+
+.sclist-ul{width: 100%;overflow: hidden;position: relative;top: -20px;}
+.sclist-ul li{width: 190px; float: left;overflow: hidden;margin-right:20px; cursor: pointer; margin-top: 20px;}
+.sclist-ul .sclist-li-img{width:188px; height: 190px; border:1px solid #eeeeee; overflow: hidden;}
+.sclist-ul .sclist-li-img img{width: 120px;display: block;margin: 0 auto;padding-top: 20px;}
+.sclist-ul li h3{font-size: 12px;font-weight: 500;display: block;padding-top: 10px;}
+.sclist-ul li span{font-weight: bolder; color: #f01924;width: 100%; height: 30px; line-height: 30px;text-align:center;
+display: block;
+}
+
+
+.jhd01box{width:100%; height: 40px; position: relative;border-bottom: 1px solid #CCCCCC;}
+.jhd01box-btn{width: 85px; height: 40px; cursor: pointer; background: #eb2c3a;position: absolute; right: 0px; top: 0px;font-size: 16px;text-align: center;line-height: 40px;color: #FFFFFF;}
+.jhd01box-btn h2{font-size: 14px;}
+.jhd01box-n02{width: 200px;text-align:right;position: absolute;height: 40px; line-height: 40px;right: 100px;top: 0px;}
+.jhd01box-n02 span{color: #eb2c3a;}
